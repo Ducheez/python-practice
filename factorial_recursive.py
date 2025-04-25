@@ -1,4 +1,4 @@
-
+# Define a function that calculates the factorial of a number using recursion
 def factorial(n):
     # Base case: factorial of 0 or 1 is 1
     if n == 0 or n == 1:
@@ -16,4 +16,5 @@ if num < 0:
 else:
     # Call the factorial function and print the result
     result = factorial(num)
+    #Display result
     print(f"Factorial of {num} is {result}")
